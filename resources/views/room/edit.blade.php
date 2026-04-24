@@ -151,7 +151,7 @@
                     
                     <div class="form-group mb-3">
                         <label for="description" class="form-label">Description</label>
-                        <textarea class="form-control" name="description" value="{{$room->description}}" rows="3"></textarea>
+                        <textarea class="form-control" name="description" value="{{$room->description}}" rows="5"></textarea>
                     </div>
                     
                     <button type="submit" class="button-edit">Change</button>
