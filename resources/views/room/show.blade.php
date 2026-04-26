@@ -176,7 +176,7 @@
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">Type: <strong>{{$room->type}}</strong></li>
                         <li class="list-group-item">Price per night: <strong>{{$room->price_per_night}}€</strong></li>
-                        <li class="list-group-item">Capacity: <strong>{{$room->capacity}}</strong></li>
+                        <li class="list-group-item">Capacity: <strong>{{$room->capacity}}</strong><i class="fa-solid fa-person"></i></li>
                         <li class="list-group-item">{{$room->description}}</li>
                         @if (Auth::user()->role_id != 4)<li class="list-group-item"><a href='{{url("room/$room->id/edit")}}' class="btn btn-link">Edit</a></li>@endif
                     </ul>
